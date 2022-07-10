@@ -78,7 +78,7 @@ const Weather = () => {
       <AppBar position="fixed" style={{ backgroundColor: "green" }}>
         <Toolbar>
           <Typography variant="h4" className={classes.title}>
-            Weather App
+            Nalssi App
           </Typography>
         </Toolbar>
       </AppBar>
