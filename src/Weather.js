@@ -17,11 +17,12 @@ const useStyles = makeStyles({
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    background:
-      "radial-gradient(circle, rgba(210,188,137,1) 19%, rgba(72,167,201,1) 100%)",
-    color: "#fff",
   },
   contents: {
+    backgroundColor: "white",
+    padding: "5rem",
+    boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+    borderRadius: "1rem",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -31,7 +32,7 @@ const useStyles = makeStyles({
     margin: "0 auto",
   },
   button: {
-    backgroundColor: "#9982AF",
+    backgroundColor: "green",
   },
   formFlex: {
     display: "flex",
@@ -74,14 +75,14 @@ const Weather = () => {
 
   return (
     <div>
-      <AppBar position="fixed" style={{ backgroundColor: "#9982AF" }}>
+      <AppBar position="fixed" style={{ backgroundColor: "green" }}>
         <Toolbar>
           <Typography variant="h4" className={classes.title}>
             Weather App
           </Typography>
         </Toolbar>
       </AppBar>
-      <Container maxWidth="lg" className={classes.root}>
+      <Container maxWidth="xl" className={classes.root}>
         {isLoading && <div>Loading...</div>}
         <Box className={classes.contents}>
           <form
@@ -91,7 +92,7 @@ const Weather = () => {
             className={classes.formFlex}
           >
             <TextField
-              variant="outlined"
+              color="white"
               type="text"
               placeholder="City"
               required
