@@ -1,4 +1,7 @@
 # Nalssi App
+<p align="center>
+<img src="https://user-images.githubusercontent.com/50400631/187038146-d7e93382-ae61-4679-8e24-3ad1e91ef1f1.gif">
+</p>
 Live : https://nalssi-app.netlify.app
 ## 프로젝트 설명
 
